@@ -1,4 +1,4 @@
-# Activity 6 - Inline Styles Concert Table
+# Activity 6 - Inline Styles/Concert Table
 
 ## 📋 Instructions
 
@@ -11,5 +11,6 @@ Let's add some color to our concert table from [activity 4](../Activity%204/Inst
 
 ## 💻 Additional Resources
 
-- https://www.youtube.com/watch?v=eJJa91JZQ84 - There are no good videos on this, they are all bad
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style - MDN article on style
+💫 [HTML Style Attribute](https://www.youtube.com/watch?v=eJJa91JZQ84)
+
+💫 [MDN article on style attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)

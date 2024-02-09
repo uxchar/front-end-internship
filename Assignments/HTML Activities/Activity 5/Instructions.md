@@ -1,4 +1,4 @@
-# Activity 5 - Inline Styles on Movie Poster
+# Activity 5 - Inline Styles/Movie Poster
 
 ## 📋 Instructions
 
