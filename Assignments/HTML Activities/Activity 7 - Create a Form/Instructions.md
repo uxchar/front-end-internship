@@ -1,4 +1,4 @@
-# Activity 7 - Create a Form
+# HTML Activity 7 - Create a Form
 
 ## 📋 Instructions
 
