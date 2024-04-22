@@ -2,7 +2,7 @@
 
 ## 📋 Instructions
 
-Add some styling (like color and different sizes) to your Movies and Concert Stage web pages from HTML activities [5](../../HTML%20Activities/Activity%205/Instructions.md) and [6](../../HTML%20Activities/Activity%206/Instructions.md) 
+Add some styling (like color and different sizes) to your Movies and Concert Stage web pages from HTML activities [4](../../HTML%20Activities/Activity%204%20-%20Tables/Instructions.md) and [5](../../HTML%20Activities/Activity%205%20-%20Movie%20Poster/Instructions.md) 
 
 Examples:
 

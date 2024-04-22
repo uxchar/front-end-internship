@@ -14,6 +14,10 @@ Use a combination of the subjects that we've covered:
 - text areas
 - checkboxes
 
+## 🖼️ Example
+
+![](../../../Assets/HTML/interestForm.png)
+
 ## 💻 Additional Resources
 
 💫 [Learn HTML forms (video)](https://www.youtube.com/watch?v=2O8pkybH6po)

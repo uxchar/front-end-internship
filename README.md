@@ -34,12 +34,7 @@ CSS Activities
 - [Activity 13 - CSS Form with Media Query](/Assignments/CSS%20Activities/Activity%2013%20-%20Media%20Query/instructions.md)
 - [Activity 14 - Responsive Layout](/Assignments/CSS%20Activities/Activity%2014%20-%20Responsive%20Layout/Instructions.md)
 - [Activity 15 - Anchor Tags & Pseudo Classes](/Assignments/CSS%20Activities/Activity%2015%20-%20Pseudo%20Classes/Instructions.md)
-- [Activity 16 - HTML Form with Tailwind](/Assignments/CSS%20Activities/Activity%2016%20-%20Tailwind/Instructions.md)
-
-
-WHERE DOES THIS BELONG?
-- [Activity 7 - Creating a Form with Style](/Assignments/CSS%20Activities/Activity%207%20-%20Form/Instructions.md)
-
+- [Activity 16 - Form with Tailwind](/Assignments/CSS%20Activities/Activity%2016%20-%20Tailwind/Instructions.md)
 
 JavaScript Activities
   

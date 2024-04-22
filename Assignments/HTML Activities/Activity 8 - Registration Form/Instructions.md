@@ -1,4 +1,4 @@
-# CSS Activity 8 - Registration Form
+# HTML Activity 8 - Registration Form
 
 ## 📋 Instructions
 
@@ -15,4 +15,4 @@ Your registration page should include a background. An example has been provided
 
 ## 🖼️ Example
 
-![](../../../Assets/CSS/styledForm.png)
+![](../../../Assets/HTML/styledForm.png)
