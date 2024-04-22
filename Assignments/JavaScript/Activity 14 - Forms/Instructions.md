@@ -7,7 +7,7 @@ Create a form that will collect the information from your user, and once submitt
 <b>Form guidelines:</b>
 
 - Add information inside the form tag
-- Give your  textbox an ID of `name`
+- Give your textbox an ID of `name`
 - Give your radio buttons a name of `fav_language`
 - Give your checkboxes a name of `hobby`
 
