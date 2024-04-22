@@ -3,7 +3,6 @@
 ## 📋 Instructions
 
 1. Console.log the name
-2. 
    ```
     const me = {
         "name": "Cory",
