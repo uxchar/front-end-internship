@@ -1,4 +1,4 @@
-# CSS Activity 8 - Create a Newsletter
+# CSS Activity 7 - Create a Newsletter
 
 ## 📋 Instructions
 

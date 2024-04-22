@@ -1,4 +1,4 @@
-# CSS Activity 7 - Creating a Form with Style
+# CSS Activity 8 - Registration Form
 
 ## 📋 Instructions
 

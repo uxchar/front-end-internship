@@ -1,4 +1,4 @@
-# CSS Activity 15 - Responsive Design with Flexbox & Grid ( Media Queries)
+# CSS Activity 14 - Responsive Design with Flexbox, Grid, and Media Queries
 
 ## 📋 Instructions
 

@@ -1,4 +1,4 @@
-# CSS Activity 5 - Recreate Trail Card
+# CSS Activity 4 - Recreate Trail Card
 
 ## 📋 Instructions
 

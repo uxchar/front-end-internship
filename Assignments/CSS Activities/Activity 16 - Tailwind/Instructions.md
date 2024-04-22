@@ -1,4 +1,4 @@
-# CSS Activity 18 - HTML Form with Tailwind
+# CSS Activity 16 - HTML Form with Tailwind
 
 ## 📋 Instructions
 

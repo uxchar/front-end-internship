@@ -1,4 +1,4 @@
-# CSS Activity 16 - Anchor Tags & Pseudo Classes
+# CSS Activity 15 - Anchor Tags & Pseudo Classes
 
 ## 📋 Instructions
 

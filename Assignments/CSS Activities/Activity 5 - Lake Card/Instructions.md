@@ -1,4 +1,4 @@
-# CSS Activity 6 - Recreate Lake Card
+# CSS Activity 5 - Recreate Lake Card
 
 ## 📋 Instructions
 

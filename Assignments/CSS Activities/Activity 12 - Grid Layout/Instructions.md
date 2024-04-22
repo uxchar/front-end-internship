@@ -1,4 +1,4 @@
-# CSS Activity 17 - Flexbox Grid Layout Challenge
+# CSS Activity 12 - Flexbox Grid Layout Challenge
 
 ## 📋 Instructions
 

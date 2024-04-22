@@ -1,4 +1,4 @@
-# CSS Activity 12 - CSS Grid Garden
+# CSS Activity 11 - CSS Grid Garden
 
 ## 📋 Instructions
 

@@ -1,4 +1,4 @@
-# CSS Activity 14 - CSS Flexbox & Grid
+# CSS Activity 10 - CSS Flexbox & Grid
 
 ## 📋 Instructions
 

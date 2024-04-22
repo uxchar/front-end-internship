@@ -1,4 +1,4 @@
-# CSS Activity 4 - About You
+# CSS Activity 3 - About You
 
 ## 📋 Instructions
 

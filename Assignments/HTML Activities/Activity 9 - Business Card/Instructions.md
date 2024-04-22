@@ -1,4 +1,4 @@
-# HTML Activity 8 - Stretch Activity: Digital Business Card
+# HTML Activity 9 - Stretch Activity: Digital Business Card
 
 ## 📋 Instructions
 

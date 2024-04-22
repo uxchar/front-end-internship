@@ -1,4 +1,4 @@
-# CSS Activity 9 - YouTube Card/Lofi Girl
+# CSS Activity 8 - YouTube Card/Lofi Girl
 
 ## 📋 Instructions
 

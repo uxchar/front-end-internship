@@ -1,4 +1,4 @@
-# CSS Activity 10 - Flexbox Froggy
+# CSS Activity 6 - Flexbox Froggy
 
 ## 📋 Instructions
 

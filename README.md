@@ -14,28 +14,32 @@ HTML Acitvities
 - [Activity 5 - Inline Styles/Movie Poster](/Assignments/HTML%20Activities/Activity%205%20-%20Movie%20Poster/Instructions.md)
 - [Activity 6 - Inline Styles/Concert Table](/Assignments/HTML%20Activities/Activity%206%20-%20Concert%20Table/Instructions.md)
 - [Activity 7 - Create a Form](/Assignments/HTML%20Activities/Activity%207%20-%20Create%20a%20Form/Instructions.md)
-- [Activity 8 - Stretch Activity: Digital Business Card](/Assignments/HTML%20Activities/Activity%208%20-%20Business%20Card/Instructions.md)
+- [Activity 8 - Registration Form](/Assignments/HTML%20Activities/Activity%208%20-%20Registration%20Form/Instructions.md)
+- [Activity 9 - Stretch Activity: Digital Business Card](/Assignments/HTML%20Activities/Activity%209%20-%20Business%20Card/Instructions.md)
 
 CSS Activities
 
 - [Activity 1 - Adding Styles to Projects](/Assignments/CSS%20Activities/Activity%201%20-%20Styles/Instructions.md)
 - [Activity 2 - Taste the Rainbow](/Assignments/CSS%20Activities/Activity%202%20-%20Rainbow/Instructions.md)
-- [Activity 3 - Simple Coffee Shop](/Assignments/CSS%20Activities/Activity%203%20-%20Coffee%20Shop/Instructions.md)
-- [Activity 4 - About You](/Assignments/CSS%20Activities/Activity%204%20-%20About%20You/Instructions.md)
-- [Activity 5 - Recreate Trail Card](/Assignments/CSS%20Activities/Activity%205%20-%20Trail%20Card/Instructions.md)
-- [Activity 6 - Recreate Lake Card](/Assignments/CSS%20Activities/Activity%206%20-%20Lake%20Card/Instructions.md)
-- [Activity 7 - Creating a Form with Style](/Assignments/CSS%20Activities/Activity%207%20-%20Form/Instructions.md)
-- [Activity 8 - Create a Newsletter](/Assignments/CSS%20Activities/Activity%208%20-%20Newsletter/Instructions.md)
-- [Activity 9 - YouTube Card/Lofi Girl](/Assignments/CSS%20Activities/Activity%209%20-%20YouTube%20Card/Instructions.md)
-- [Activity 10 - Flexbox Froggy](/Assignments/CSS%20Activities/Activity%2010%20-%20Flexbox%20Froggy/Instructions.md)
-- [Activity 11 - Recreate the Layout](/Assignments/CSS%20Activities/Activity%2011%20-%20Flex%20Layout/Instructions.md)
-- [Activity 12 - CSS Grid Garden](/Assignments/CSS%20Activities/Activity%2012%20-%20Grid%20Garden/instructions.md)
+- [Activity 3 - About You](/Assignments/CSS%20Activities/Activity%204%20-%20About%20You/Instructions.md)
+- [Activity 4 - Recreate Trail Card](/Assignments/CSS%20Activities/Activity%204%20-%20Trail%20Card/Instructions.md)
+- [Activity 5 - Recreate Lake Card](/Assignments/CSS%20Activities/Activity%205%20-%20Lake%20Card/Instructions.md)
+- [Activity 6 - Flexbox Froggy](/Assignments/CSS%20Activities/Activity%206%20-%20Flexbox%20Froggy/Instructions.md)
+- [Activity 7 - Create a Newsletter](/Assignments/CSS%20Activities/Activity%207%20-%20Newsletter/Instructions.md)
+- [Activity 8 - YouTube Card/Lofi Girl](/Assignments/CSS%20Activities/Activity%208%20-%20YouTube%20Card/Instructions.md)
+- [Activity 9 - Recreate the Layout](/Assignments/CSS%20Activities/Activity%209%20-%20Flex%20Layout/Instructions.md)
+- [Activity 10 - Recreate the Layout 2](/Assignments/CSS%20Activities/Activity%2010%20-%20Flex%20Layout%202/instructions.md)
+- [Activity 11 - CSS Grid Garden](/Assignments/CSS%20Activities/Activity%2012%20-%20Grid%20Garden/instructions.md)
+- [Activity 12 - Flexbox Grid Layout Challenge](/Assignments/CSS%20Activities/Activity%2013%20-%20Grid%20Layout/Instructions.md)
 - [Activity 13 - CSS Form with Media Query](/Assignments/CSS%20Activities/Activity%2013%20-%20Media%20Query/instructions.md)
-- [Activity 14 - CSS Flexbox & Grid](/Assignments/CSS%20Activities/Activity%2014%20-%20Flex%20Layout%202/instructions.md)
-- [Activity 15 - Responsive Design with Flexbox & Grid](/Assignments/CSS%20Activities/Activity%2015%20-%20Flex%20Layout%203/Instructions.md)
-- [Activity 16 - Anchor Tags & Pseudo Classes](/Assignments/CSS%20Activities/Activity%2016%20-%20Pseudo%20Classes/Instructions.md)
-- [Activity 17 - Flexbox Grid Layout Challenge](/Assignments/CSS%20Activities/Activity%2017%20-%20Grid%20Layout/Instructions.md)
-- [Activity 18 - HTML Form with Tailwind](/Assignments/CSS%20Activities/Activity%2018%20-%20Tailwind/Instructions.md)
+- [Activity 14 - Responsive Layout](/Assignments/CSS%20Activities/Activity%2014%20-%20Responsive%20Layout/Instructions.md)
+- [Activity 15 - Anchor Tags & Pseudo Classes](/Assignments/CSS%20Activities/Activity%2015%20-%20Pseudo%20Classes/Instructions.md)
+- [Activity 16 - HTML Form with Tailwind](/Assignments/CSS%20Activities/Activity%2016%20-%20Tailwind/Instructions.md)
+
+
+WHERE DOES THIS BELONG?
+- [Activity 7 - Creating a Form with Style](/Assignments/CSS%20Activities/Activity%207%20-%20Form/Instructions.md)
+
 
 JavaScript Activities
   
