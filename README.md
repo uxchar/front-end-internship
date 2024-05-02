@@ -58,3 +58,6 @@ JavaScript Activities
 - [Activity 16 - Objects](/Assignments/JavaScript/Activity%2016%20-%20Objects/Instructions.md)
 - [Activity 17 - Objects](/Assignments/JavaScript/Activity%2017%20-%20Objects/Instructions.md)
 - [Activity 18 - JSON](/Assignments/JavaScript/Activity%2018%20-%20JSON/Instructions.md)
+- [Activity 19 - Web Requests](/Assignments/JavaScript/Activity%2019%20-%20Web%20Requests/Instructions.md)
+- [Activity 20 - JSON Beverage Activity](/Assignments/JavaScript/Activity%2020%20-%20JSON%20Beverage/Instructions.md)
+- [Activity 21 - Cat Facts Activity](/Assignments/JavaScript/Activity%2021%20-%20Cat%20Facts/Instructions.md)
