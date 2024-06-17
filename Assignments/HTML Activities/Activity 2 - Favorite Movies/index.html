@@ -1,0 +1,299 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chauncey's Favorite Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "JetBrains Mono", sans-serif;
+        margin: 60px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        background-color: rgb(14, 14, 14);
+        color: rgb(250, 250, 250);
+      }
+      div {
+        margin-bottom: 30px;
+      }
+
+      /* Reference: https://www.sitepoint.com/understanding-and-using-rem-units-in-css/#:~:text=In%20CSS%20rem%20stands%20for%20%E2%80%9Croot%20em%E2%80%9D%2C%20a,of%20font%20size%20and%20spacing%20throughout%20your%20UI. */
+
+      h1 {
+        font-size: 1.875rem;
+        font-family: "Audiowide", sans-serif;
+      }
+      h2 {
+        font-size: 1.25rem;
+        white-space: nowrap;
+      }
+
+      p {
+        font-size: 0.875rem;
+      }
+
+      /* tile component*/
+
+      .title {
+        max-width: 550px;
+      }
+      .sub-title {
+        margin-top: 30px;
+      }
+
+      .keyword {
+        background: linear-gradient(
+          to right,
+          #25aae1,
+          #4481eb,
+          #04befe,
+          #3f86ed
+        );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      /* movie card component */
+
+      .movie-card {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .movie-title {
+        font-family: "Audiowide", sans-serif;
+        margin-bottom: 30px;
+        background-color: rgb(34, 34, 34);
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
+      .movie-poster-link {
+        width: 330px;
+        height: 500px;
+      }
+
+      .poster-wrapper {
+        margin-bottom: 40px;
+      }
+
+      /* Credit to this site for helping me to get the text and image to stay the same width on desktop
+       https://dev.to/afif/responsive-text-based-on-image-size-36n9
+      */
+
+      .movie-description {
+        width: 0;
+        min-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .div-line {
+        width: 100%;
+        opacity: 20%;
+        margin-top: -30px;
+      }
+
+      /* Credit to this site for these cool looking buttons: https://codepen.io/JavaScriptJunkie/pen/pPRooV */
+
+      .rt-link {
+        width: 200px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        background-size: 300% 100%;
+
+        border-radius: 50px;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .rt-hover:hover {
+        background-position: 100% 0;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .rt-hover:focus {
+        outline: none;
+      }
+
+      .rt-hover.grad-blue {
+        background-image: linear-gradient(
+          to right,
+          #25aae1,
+          #4481eb,
+          #04befe,
+          #3f86ed
+        );
+        box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+      }
+      @media only screen and (min-width: 850px) {
+        body {
+          flex-direction: row;
+        }
+        hr {
+          display: none;
+        }
+
+        /* will fix the last poster responsiveness later */
+
+        .movie-poster-link {
+          margin-bottom: 30px;
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+          cursor: pointer;
+        }
+
+        .movie-card {
+          text-align: left;
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+        }
+
+        .title {
+          border-left: 3px solid;
+          border-image: linear-gradient(
+              to bottom,
+              #25aae1,
+              #4481eb,
+              #04befe,
+              rgba(0, 0, 0, 0)
+            )
+            1 100%;
+          max-width: 200px;
+          height: 200px;
+          padding-left: 10px;
+        }
+        .rt-link {
+          margin-bottom: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <h1>
+        Chauncey's Favorite <span class="keyword">Futuristic</span> Movies
+        <br />
+        <br />
+        <span class="emojis">🍿🧑🏾‍🚀✌🏾</span>
+      </h1>
+      <p class="sub-title">
+        <em>
+          If you love flying cars, robots, & A.I. systems that go rougue, veg
+          out on the couch & check out these futuristic worlds!
+        </em>
+      </p>
+    </div>
+    <hr class="div-line" />
+    <div class="movie-card">
+      <h2 class="movie-title">Blade Runner</h2>
+      <form
+        action="https://www.rottentomatoes.com/m/blade_runner"
+        class="poster-wrapper"
+      >
+        <button type="submit">
+          <img
+            src="https://www.movieposters.com/cdn/shop/files/BladeRunner.mpw.102336_480x.progressive.jpg?v=1707420542"
+            alt="image of movie Blade Runner poster"
+            class="movie-poster-link"
+          />
+        </button>
+      </form>
+
+      <p class="movie-description">
+        Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to
+        continue his old job as Replicant Hunter. His assignment: eliminate four
+        escaped Replicants from the colonies who have returned to Earth. Before
+        starting the job, Deckard goes to the Tyrell Corporation and he meets
+        Rachel (Sean Young), a Replicant girl he falls in love with.
+      </p>
+      <form action="https://www.rottentomatoes.com/m/blade_runner">
+        <button class="rt-link rt-hover grad-blue" type="submit">
+          More Details
+        </button>
+      </form>
+    </div>
+
+    <div class="movie-card">
+      <h2 class="movie-title">Akira</h2>
+      <form
+        action="https://www.rottentomatoes.com/m/akira"
+        class="poster-wrapper"
+      >
+        <button type="submit">
+          <img
+            src="https://www.themoviedb.org/t/p/original/a5nKn2lsIelW1kjOMrjd7TAK5YF.jpg"
+            alt="image of movie Akira poster"
+            class="movie-poster-link"
+          />
+        </button>
+      </form>
+      <p class="movie-description">
+        In 1988 the Japanese government drops an atomic bomb on Tokyo after ESP
+        experiments on children go awry. In 2019, 31 years after nuking the
+        city, Kaneda, a bike gang leader, tries to save his friend Tetsuo from a
+        secret government project. He battles against anti-government activists,
+        greedy politicians, irresponsible scientists and a powerful military
+        leader until Tetsuo's supernatural power suddenly manifest. A final
+        battle is fought in Tokyo Olympiad exposing the experiment's secrets.
+      </p>
+      <form action="https://www.rottentomatoes.com/m/akira">
+        <button class="rt-link rt-hover grad-blue" type="submit">
+          More Details
+        </button>
+      </form>
+    </div>
+
+    <div class="movie-card">
+      <h2 class="movie-title">2001: A Space Odyssey</h2>
+      <form
+        action="https://www.rottentomatoes.com/m/2001_a_space_odyssey"
+        class="poster-wrapper"
+      >
+        <button type="submit">
+          <img
+            src="https://www.movieposters.com/cdn/shop/products/ItemR85337_480x.progressive.jpg?v=1605904174"
+            alt="image of movie 2001: A Space Odyssey poster"
+            class="movie-poster-link"
+          />
+        </button>
+      </form>
+
+      <p class="movie-description">
+        An imposing black structure provides a connection between the past and
+        the future in this enigmatic adaptation of a short story by revered
+        sci-fi author Arthur C. Clarke. When Dr. Dave Bowman (Keir Dullea) and
+        other astronauts are sent on a mysterious mission, their ship's computer
+        system, HAL, begins to display increasingly strange behavior, leading up
+        to a tense showdown between man and machine that results in a
+        mind-bending trek through space and time.
+      </p>
+      <form action="https://www.rottentomatoes.com/m/2001_a_space_odyssey">
+        <button class="rt-link rt-hover grad-blue" type="submit">
+          More Details
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
