@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest Intake Form</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        margin-bottom: 10px;
+      }
+
+      .form-section {
+        margin-bottom: 30px;
+      }
+      .name {
+        width: 200px;
+      }
+      .textbox {
+        width: 350px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="form-section">
+        <label for="name"
+          >First Name:
+          <input type="text" name="name" class="name" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="favorite subjects">What are your favorite subjects? </label>
+        <div class="form-input">
+          <input type="checkbox" name="math" id="name" />
+          <label for="math">Math</label><br />
+          <input type="checkbox" name="science" id="name" />
+          <label for="science">Science</label><br />
+          <input type="checkbox" name="history" id="name" />
+          <label for="history">History</label>
+        </div>
+      </div>
+      <div class="form-section">
+        <label for="web development interests"
+          >What are you interested in learning?
+        </label>
+        <div class="form-input">
+          <input type="radio" name="html" id="name" />
+          <label for="html">HTML</label><br />
+          <input type="radio" name="css" id="name" />
+          <label for="css">CSS</label><br />
+          <input type="radio" name="javascript" id="name" />
+          <label for="javacript">JavaScript</label>
+        </div>
+      </div>
+      <div class="form-section">
+        <label for="hobbies">What are some of your hobbies? </label>
+        <div class="form-input">
+          <textarea name="hobbies" id="hobbies" class="textbox"></textarea>
+        </div>
+        <div class="form-section">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

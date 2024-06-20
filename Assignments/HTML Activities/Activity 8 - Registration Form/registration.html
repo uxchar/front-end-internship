@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      
+   
+      .info-wrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .gender-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+
+      .form-section {
+        margin-bottom: 30px;
+      }
+   
+      .textbox {
+        width: 350px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+        <h1>Registration</h1>
+        <div class="info-wrapper">
+      <div class="form-section">
+        <label for="name"
+          >Full Name
+          <input type="text" name="name" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="name"
+          >Username
+          <input type="text" name="name" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="email"
+          >Email
+          <input type="text" name="email" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="phone number"
+          >Phone Number
+          <input type="text" name="phone number" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="password"
+          >Password
+          <input type="text" name="password" />
+        </label>
+      </div>
+      <div class="form-section">
+        <label for="confirm password"
+          >Confirm Password
+          <input type="text" name="confirm password" />
+        </label>
+      </div>
+    </div>
+   
+      <div class="form-section">
+        <label for="gender"
+          >Gender
+        </label>
+        <div class="form-input gender-wrapper">
+          <input type="radio" name="male" id="name" />
+          <label for="male">Male</label><br />
+          <input type="radio" name="female" id="name" />
+          <label for="female">Female</label><br />
+          <input type="radio" name="prefer" id="name" />
+          <label for="prefer">Prefer not to say</label>
+        </div>
+      </div>
+    
+        <div class="form-section">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
