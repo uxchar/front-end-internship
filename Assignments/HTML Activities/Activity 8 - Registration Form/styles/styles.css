@@ -33,6 +33,17 @@ label {
   background-color: rgb(244, 244, 244);
 }
 
+.title-border {
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #d9a7c7, #fffcdc) 1;
+  margin-bottom: 30px;
+  width: 30px;
+  margin-right: 100%;
+  margin-left: 20px;
+  margin-top: -25px;
+  /* width: 30px; */
+}
+
 .card-title {
   font-size: 1.5rem;
   font-weight: 500;
