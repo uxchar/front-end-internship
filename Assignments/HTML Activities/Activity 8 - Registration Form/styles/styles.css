@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-card {
+  width: 650px;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.text-section-wrapper {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.text-input-wrapper {
+  margin-bottom: 30px;
+}
+
+.text-input-label {
+  margin-bottom: 5px;
+}
+
+.text-input {
+  width: 250px;
+  height: 30px;
+  line-height: 1.5;
+  border: none;
+  padding: 5px 15px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+}
+
+.gender-section-wrapper {
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+
+.gender-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.gender-label {
+  display: inline;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.gender-btn {
+  display: inline;
+  margin-right: 10px;
+  margin-top: -4px;
+  width: 15px;
+}
+
+.submit-section-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.submit-btn {
+  width: 93%;
+  height: 45px;
+  margin: 0 auto 30px auto;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: hsl(323, 47%, 82%);
+  color: rgb(51, 51, 51);
+  border: none;
+}
