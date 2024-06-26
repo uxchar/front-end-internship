@@ -1,0 +1,51 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.sub-section-title {
+  font-weight: 700;
+}
+.about-me-wrapper {
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+}
+.my-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 58%;
+  border-radius: 50%;
+}
+.wrapper {
+  width: 100%;
+  background-color: #1528ff;
+  padding: 10px;
+}
+
+.hobby-container {
+  width: 80%;
+  height: 300px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby-title {
+  font-size: 3rem;
+  color: white;
+  height: 100%;
+  /* margin-left: 200px; */
+  text-align: center;
+  padding-top: 100px;
+  z-index: 100;
+}
+
+.music {
+  background-image: url(https://www.rapidflow.shop/cdn/shop/articles/Learn_Ableton_Live.webp?v=1711981426);
+}
+
+.exercise {
+  background-image: url(https://media.istockphoto.com/id/1436909134/photo/black-male-muscular-athlete-practicing-deadlift-with-barbell.webp?b=1&s=170667a&w=0&k=20&c=zIjsk9jKg6NAh_eYxF5GVPqtNLfoC6txixgXrhPEV2o=);
+}

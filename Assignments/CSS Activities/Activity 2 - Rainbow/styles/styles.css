@@ -41,44 +41,32 @@ body {
 .yellow-title {
   color: black;
 }
-.container-red {
-  background-color: red;
+
+.container {
   width: 100%;
   height: 300px;
+}
+.container-red {
+  background-color: red;
 }
 .container-orange {
   background-color: orange;
-  width: 100%;
-  height: 300px;
 }
 .container-yellow {
   background-color: yellow;
-  width: 100%;
-  height: 300px;
 }
-
 .container-green {
   background-color: green;
-  width: 100%;
-  height: 300px;
 }
-
 .container-blue {
   background-color: blue;
-  width: 100%;
-  height: 300px;
 }
-
 .container-indigo {
   background-color: indigo;
-  width: 100%;
-  height: 300px;
 }
 
 .container-violet {
   background-color: violet;
-  width: 100%;
-  height: 300px;
 }
 
 .pokemon-img {
