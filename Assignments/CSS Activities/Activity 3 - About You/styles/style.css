@@ -3,6 +3,18 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.text-input {
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
+}
+
+.submit-btn {
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
 .sub-section-title {
   font-weight: 700;
 }
@@ -40,6 +52,10 @@ body {
   text-align: center;
   padding-top: 100px;
   z-index: 100;
+}
+
+.feedback {
+  margin-top: 80px;
 }
 
 .music {
