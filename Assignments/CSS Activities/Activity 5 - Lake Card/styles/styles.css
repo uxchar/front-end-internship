@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.lake-card {
+  max-width: 415px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  color: rgb(32, 32, 56);
+  border-radius: 20px;
+  border: 2px solid rgb(197, 209, 219);
+}
+
+.first-tag {
+  margin-left: 25px;
+}
+
+.tag {
+  padding: 3px 10px;
+  border-radius: 15px;
+  color: rgb(157, 165, 177);
+  border: 2px solid rgb(235, 238, 241);
+  background-color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.tag:hover {
+  cursor: pointer;
+}
+
+.card-title {
+  color: rgb(35, 51, 62);
+  font-size: 1.7rem;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.card-text {
+  color: rgb(163, 170, 181);
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: -35px;
+  line-height: 1.5;
+}
+
+.card-img {
+  width: 95%;
+  height: 300px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.read-more-btn {
+  padding: 17px 35px;
+  color: rgb(46, 148, 248);
+  background-color: rgb(227, 239, 253);
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin: -10px auto 30px auto;
+  font-weight: 600;
+}
+
+.read-more-btn:hover {
+  cursor: pointer;
+}
