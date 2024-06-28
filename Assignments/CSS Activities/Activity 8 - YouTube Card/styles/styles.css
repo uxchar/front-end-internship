@@ -112,6 +112,9 @@ a:active {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: rgb(225, 225, 225);
+}
 .like-btn {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -128,6 +131,11 @@ a:active {
   border: none;
   padding: 2px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.more-btn:hover {
+  background-color: rgb(225, 225, 225);
 }
 
 .more-icon {
