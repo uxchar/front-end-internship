@@ -61,8 +61,8 @@ body {
 }
 
 .top-left-photo {
-  max-width: 700px;
-  max-height: 150px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
   min-height: 0;
 }
@@ -76,7 +76,7 @@ body {
 
 .top-right-photo {
   max-width: 240px;
-  height: 525px;
+  height: 100%;
   object-fit: cover;
   min-width: 0;
 }
@@ -119,12 +119,18 @@ body {
   align-self: flex-end;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .top-photo-section {
     flex-wrap: wrap;
   }
 
   .top-right-photo {
-    height: 330px;
+    height: 430px;
+  }
+  .top-left-photo {
+    max-height: 100%;
+  }
+  .bottom-image-container {
+    flex: 2 0 50%;
   }
 }
