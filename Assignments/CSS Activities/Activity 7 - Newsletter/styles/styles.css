@@ -70,6 +70,7 @@ body {
 .top-photo-section {
   width: 70%;
   gap: 10px;
+
   /* flex: 1 1 90%; */
 }
 
