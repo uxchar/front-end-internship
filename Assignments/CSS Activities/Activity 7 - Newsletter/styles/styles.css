@@ -118,3 +118,13 @@ body {
 .site-link {
   align-self: flex-end;
 }
+
+@media (max-width: 1000px) {
+  .top-photo-section {
+    flex-wrap: wrap;
+  }
+
+  .top-right-photo {
+    height: 330px;
+  }
+}
