@@ -29,19 +29,19 @@ p {
 }
 
 .header {
-  background-color: rgb(255, 99, 47);
+  background-color: rgb(236, 120, 92);
   grid-area: header;
 }
 .aside-1 {
-  background-color: rgb(255, 223, 44);
+  background-color: rgb(250, 223, 55);
   grid-area: aside1;
 }
 .content {
-  background-color: rgb(40, 187, 255);
+  background-color: rgb(40, 174, 252);
   grid: content;
 }
 .aside-2 {
-  background-color: rgb(221, 30, 221);
+  background-color: rgb(253, 103, 177);
   grid-area: aside2;
 }
 .footer {
