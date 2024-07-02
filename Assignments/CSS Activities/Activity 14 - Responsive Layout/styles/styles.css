@@ -68,7 +68,7 @@ p {
   justify-content: center;
 }
 
-@media screen and (min-width: 70em) and (max-width: 100em) {
+@media screen and (min-width: 1120px) {
   .layout-wrapper {
     display: grid;
     margin: 5px;
