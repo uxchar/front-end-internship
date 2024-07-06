@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a:link {
+  text-decoration: none;
+  color: #f6f5eb;
+  font-size: 1.1rem;
+}
+a:visited {
+  color: #f6f5eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 42, 55, 0.5);
+  z-index: -99;
+}
+.site-container {
+  font-family: "Piazzolla", serif;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-bar ul {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style-type: none;
+  padding: 12px 22px;
+  border-radius: 35px;
+}
+
+.sign-up-btn {
+  border-radius: 6px;
+  border-style: none;
+  padding: 10px 25px;
+  background-color: rgb(246, 211, 108);
+  font-family: "Piazzolla", serif;
+  font-weight: 700;
+}
+
+.sign-up-btn a {
+  color: #0e2a54;
+}
+
+.sign-up-btn:hover {
+  cursor: pointer;
+  background-color: rgb(246, 211, 108, 0.75);
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6f5eb;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f6f5eb;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.logo-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f6f5eb;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.order-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: 500;
+  padding: 20px 50px;
+  background-color: #0e2a54;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+.more-info {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.order-btn:hover {
+  cursor: pointer;
+  background-color: rgb(14, 42, 84, 0.75);
+}
+
+.order-section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.order-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.cust-choice-section {
+  display: flex;
+  gap: 60px;
+}
+.drink-choice,
+.shot-choice,
+.milk-choice {
+  display: flex;
+  flex-direction: column;
+}
