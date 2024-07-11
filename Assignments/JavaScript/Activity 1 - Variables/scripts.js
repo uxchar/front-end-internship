@@ -57,5 +57,5 @@ console.log(a, b, c, d, e, f, g);
 
 firstNumber = 9;
 secondNumber = 4;
-
+[firstNumber, secondNumber] = [secondNumber, firstNumber];
 console.log(firstNumber, secondNumber);
