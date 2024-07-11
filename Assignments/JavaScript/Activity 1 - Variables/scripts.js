@@ -28,7 +28,7 @@ let celsius = 22;
 let fahrenheit = (celsius * 9) / 5 + 32;
 
 console.log(
-  `The temperature for today will be ${fahrenheit}°F with a slight chance of rain"`
+  `The temperature for today will be ${fahrenheit}°F with a slight chance of rain`
 );
 
 // 5. Look at the following code and try to predict the final
@@ -55,7 +55,7 @@ console.log(a, b, c, d, e, f, g);
 //     let secondNumber = 9;
 // ```
 
-firstNumber = 9;
-secondNumber = 4;
+firstNumber = 4;
+secondNumber = 9;
 [firstNumber, secondNumber] = [secondNumber, firstNumber];
 console.log(firstNumber, secondNumber);
