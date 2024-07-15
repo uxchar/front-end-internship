@@ -33,7 +33,7 @@ console.log();
 
 // 5. Using the example below, Create a loop from 1  to 20 that will print out if that number is odd or even.
 
-for (let i = 0; i <= 20; i++) {
+for (let i = 1; i <= 20; i++) {
   if (i % 2 === 0) {
     console.log(`${i} is even`);
   } else {
