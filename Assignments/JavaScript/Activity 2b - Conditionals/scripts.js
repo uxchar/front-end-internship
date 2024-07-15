@@ -51,7 +51,7 @@ if (expression1 === true && expression2 === true) {
   console.log("Both are false");
 }
 
-const today = "Saturday";
+const today = "Wednesday";
 
 if (today != "Saturday" && today != "Sunday") {
   console.log("GO TO WORK");
