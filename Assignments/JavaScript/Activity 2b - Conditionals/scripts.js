@@ -34,7 +34,7 @@ June, July, or August, the season is Summer
 
 const number = 77;
 
-if (number > 0 && number < 100) {
+if (number >= 0 && number <= 100) {
   console.log("Number is between 0 and 100");
 } else {
   console.log("Number is less than 0 or greater than 100");
