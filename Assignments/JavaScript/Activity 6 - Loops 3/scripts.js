@@ -28,11 +28,11 @@ console.log();
 for (x = -100; x <= 100; x++) {
   if (x < 0 && x % 2 == 0) {
     console.log(`${x} is negative and an even number`);
-  } else if (x < 0 && x % 2 == 1) {
+  } else if (x < 0 && x % 2 != 0) {
     console.log(`${x} is negative and an odd number`);
   } else if (x > 0 && x % 2 == 0) {
     console.log(`${x} is positive and an even number`);
-  } else if (x > 0 && x % 2 == 1) {
+  } else {
     console.log(`${x} is positive and an odd number`);
   }
 }
