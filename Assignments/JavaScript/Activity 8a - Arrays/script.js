@@ -1,6 +1,9 @@
 //1. Console log the length of the array, console log the 3rd value of the array, console log the 5th vaulue of the array
 let myAlphabet = ["A", "B", "C", "D", "E", "F", "G"];
 console.log(myAlphabet.length);
+console.log(myAlphabet[3]);
+console.log(myAlphabet[5]);
+
 console.log();
 
 //2. Declare and initialize an array called Planets with 8 string values

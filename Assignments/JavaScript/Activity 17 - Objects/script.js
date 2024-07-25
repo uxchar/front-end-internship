@@ -24,9 +24,9 @@ let product = {
 
 const discount = () => {
   if (product.price > 100) {
-    return (product.price = product.price - (product.price * 0.1) / 100);
+    return (product.price = product.price - product.price * 0.1);
   } else {
-    return (product.price = product.price - (product.price * 0.07) / 100);
+    return (product.price = product.price - product.price * 0.07);
   }
 };
 
