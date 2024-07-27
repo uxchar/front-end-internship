@@ -24,7 +24,7 @@ console.log();
 const str = "cold";
 const isCold = () => {
   if (str === "cold") {
-    return "bring a jacket";
+    return "bring a jacket.";
   }
 };
 console.log(isCold());
@@ -139,6 +139,7 @@ const countTo5 = () => {
 };
 countTo5();
 console.log();
+
 //13.  Create a while loop that console logs all the numbers from 0-100
 let i = 1;
 while (i <= 100) {
@@ -148,8 +149,9 @@ console.log();
 //14. Write a function that generates a random number
 
 const numGenerator = () => {
-  console.log(Math.random() * 100);
+  console.log(Math.round(Math.random() * 1000));
 };
 numGenerator();
+console.log();
 
 // BONUS:  Write a function that checks if a number is a prime number.  If it is it console log should show '____ is a prime number.'  If it is not, console should show   '____ is not a prime number.'

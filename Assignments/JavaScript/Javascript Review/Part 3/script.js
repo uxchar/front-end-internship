@@ -93,10 +93,10 @@ const todoList = {
 todoList.addTasks("vacuum");
 todoList.addTasks("wipe counters");
 todoList.addTasks("clean shower");
-console.log(todoList.tasks);
+console.log(todoList);
 console.log();
 todoList.removeTasks("wipe counters");
-console.log(todoList.tasks);
+console.log(todoList);
 console.log();
 
 // Add the following methods to the object above:
@@ -127,5 +127,4 @@ Add the following methods to the object:
    2. getTotalDuration
        - This method returns the total duration of all songs in the playlist
 
-Demonstrate the usage of these methods by adding 3 songs to the playlist and logging the playlist duration
-*/
+Demonstrate the usage of these methods by adding 3 songs to the playlist and logging the playlist duration.*/
