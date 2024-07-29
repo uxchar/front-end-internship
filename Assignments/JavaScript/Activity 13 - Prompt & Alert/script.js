@@ -1,11 +1,11 @@
 // 1. Create an alert when you open your page that says "Good morning!"
 alert("Good morning!");
 // 2. Create a prompt that asks what hour it is (0-23). Depending on what time the user inputs post an alert saying "Good morning", "good afternoon", or "good evening". Use the logic 4-12 (Good Moring), 1-8(Good Afternoon), 9-3(Good Evening).    (Hint, use an if statement)
-const timePrompt = Number(prompt("What hour is it?", ""));
+const timePrompt = parseInt(prompt("What hour is it?", ""), 10);
 
-if (timePrompt >= 4 && timePrompt <= 12) {
+if (timePrompt >= 4 && timePrompt < 12) {
   alert("Good morning!");
-} else if (timePrompt >= 13 && timePrompt <= 20) {
+} else if (timePrompt >= 12 && timePrompt < 20) {
   alert("Good afternoon.");
 } else {
   alert("Good evening!");
