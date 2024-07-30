@@ -27,6 +27,7 @@ clickBtn.style.height = "40px";
 clickBtn.style.marginBottom = "20px";
 
 let cookies = document.getElementById("cookies");
+cookies.textContent = "0";
 let totalCookies = 0;
 let cookieCounter = 0;
 const cookieClick = () => {
