@@ -21,7 +21,7 @@ document
         const pokemonName = document.createElement("h2");
         const pokemonSprite = document.createElement("img");
 
-        pokemonName.innerHTML = `Name: ${pokemon.name}`;
+        pokemonName.innerHTML = `${pokemon.name.toUpperCase()}`;
         pokemonSprite.src = `${pokemon.sprites.front_default}`;
 
         pokemonInfo.appendChild(pokemonName);
