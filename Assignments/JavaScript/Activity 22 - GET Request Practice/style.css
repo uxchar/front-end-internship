@@ -15,6 +15,11 @@ h1 {
   text-align: center;
 }
 
+.war {
+  color: rgb(204, 16, 23);
+  text-transform: uppercase;
+}
+
 .player-title {
   font-size: 2rem;
   background-color: rgba(0, 0, 0);
