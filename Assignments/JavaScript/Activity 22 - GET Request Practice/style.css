@@ -1,0 +1,72 @@
+body {
+  font-family: "Bitter", serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/images/engin-akyurt-HEMIBJ8QQuA-unsplash.jpg);
+  background-size: contain;
+}
+
+h1 {
+  font-weight: 800;
+  background-color: rgba(0, 0, 0);
+  color: #fff;
+  padding: 20px;
+  font-size: 3.5rem;
+  width: 90%;
+  text-align: center;
+}
+
+.player-title {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0);
+  color: #fff;
+  padding: 15px 4cqh;
+}
+
+.score-title {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: -10px;
+  font-weight: 600;
+}
+#card-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 80px;
+}
+
+#player-one-container,
+#player-two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 400px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#play-btn {
+  margin: 40px auto;
+  padding: 25px 35px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#play-btn:hover {
+  cursor: pointer;
+}

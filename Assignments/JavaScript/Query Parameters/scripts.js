@@ -25,7 +25,6 @@ document
         pokemonSprite.src = `${pokemon.sprites.front_default}`;
 
         pokemonInfo.appendChild(pokemonName);
-
         pokemonInfo.appendChild(pokemonSprite);
       });
   });

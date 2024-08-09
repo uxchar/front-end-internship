@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is War! Card Game</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="card-game-container">
+      <h1>This is War!</h1>
+      <div class="cards-container">
+        <div id="player-one-container">
+          <h2 class="player-title">Player 1</h2>
+          <p class="score-title">Score:<span id="player-one-score"></span></p>
+          <div class="cards">
+            <img
+              src="https://deckofcardsapi.com/static/img/back.png"
+              alt="image of back of card"
+              class="back-card"
+            />
+            <div id="player-one-card-container"></div>
+          </div>
+        </div>
+        <div id="player-two-container">
+          <h2 class="player-title">Player 2</h2>
+          <p class="score-title">Score:<span id="player-two-score"></span></p>
+          <div class="cards">
+            <img
+              src="https://deckofcardsapi.com/static/img/back.png"
+              alt="image of back of card"
+              class="back-card"
+            />
+
+            <div id="player-two-card-container"></div>
+          </div>
+        </div>
+      </div>
+      <button id="play-btn">Play a Game</button>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
