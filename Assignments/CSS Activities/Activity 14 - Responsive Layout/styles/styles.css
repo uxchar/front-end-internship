@@ -36,7 +36,6 @@ p {
 }
 .article {
   flex: 1 1 0;
-
   background-color: rgb(253, 184, 196);
   display: flex;
   flex-direction: column;

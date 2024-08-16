@@ -17,10 +17,9 @@
 //Create conditional logic for game and increment score
 //Update scoreboard
 
-// qhp8qn9u2r43;
-
 let playerOnePoints = 0;
 let playerTwoPoints = 0;
+
 const playerOneScoreboard = document.getElementById("player-one-score");
 const playerTwoScoreboard = document.getElementById("player-two-score");
 const playerOneContainer = document.getElementById("player-one-card-container");
@@ -63,18 +62,12 @@ document.getElementById("play-btn").addEventListener("click", () => {
 
       if (playerOneValue === playerTwoValue) {
         alert("We have a tie!");
-        console.log(playerOneValue);
-        console.log(playerTwoValue);
       } else if (playerOneValue > playerTwoValue) {
         alert("Player 1 wins!");
         playerOnePoints++;
-        console.log(playerOneValue);
-        console.log(playerTwoValue);
       } else {
         alert("Player 2 wins!");
         playerTwoPoints++;
-        console.log(playerOneValue);
-        console.log(playerTwoValue);
       }
 
       playerOneScoreboard.textContent = ` ${playerOnePoints}`;

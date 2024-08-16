@@ -1,168 +1,115 @@
 video {
-  display: block;
-  width: 100%;
+  @apply block w-full;
 }
 
 a:link {
-  text-decoration: none;
+  @apply no-underline;
 }
 a:visited {
-  text-decoration: none;
-  color: black;
+  @apply no-underline text-[black];
 }
 a:hover {
-  text-decoration: none;
+  @apply no-underline;
 }
 a:active {
-  text-decoration: none;
+  @apply no-underline;
 }
 
 .material-symbols-outlined {
+  @apply text-[black] align-middle mr-[5px];
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 16;
-  color: black;
-  vertical-align: middle;
-  margin-right: 5px;
 }
 
 .youtube-card {
+  @apply max-w-[900px] h-[600px] mx-[15px] my-[30px];
   font-family: "Roboto", sans-serif;
-  max-width: 900px;
-  height: 600px;
-  margin: 30px 15px;
 }
 
 .youtube-video {
-  border-radius: 12px;
-  margin-bottom: -5px;
+  @apply mb-[-5px] rounded-xl;
 }
 .video-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+  @apply text-xl font-semibold;
 }
 
 /* creator info section starts here */
 
 .creator-info-wrapper {
-  margin: -10px auto auto auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  gap: 6px;
+  @apply flex flex-row justify-between items-center flex-wrap gap-y-2.5 gap-1.5 -mt-2.5 mb-auto mx-auto;
 }
 
 .creator-data-left {
-  display: flex;
+  @apply flex;
 }
 .profile-pic {
-  width: 45px;
+  @apply w-[45px];
 }
 .profile-info {
-  display: flex;
-  flex-direction: column;
-  column-gap: 3px;
+  @apply flex flex-col gap-x-[3px];
 }
 .item {
-  margin: auto 30px auto 10px;
-  justify-content: center;
+  @apply justify-center ml-2.5 mr-[30px] my-auto;
 }
 .video-creator {
-  font-weight: 500;
-  font-size: 1rem;
-  padding-bottom: 3px;
-  cursor: pointer;
+  @apply font-medium text-base cursor-pointer pb-[3px];
 }
-
 .video-subscriber-count {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: rgb(83, 83, 83);
+  @apply text-xs font-normal text-[rgb(83,83,83)];
 }
 
 .join-btn {
-  width: 60px;
-  height: 35px;
-  align-self: center;
-  margin-right: 6px;
+  @apply w-[60px] h-[35px] self-center mr-1.5;
 }
-
 .subscribe-btn {
-  width: 90px;
-  height: 35px;
-  background-color: black;
-  color: white;
-  align-self: center;
+  @apply w-[90px] h-[35px] bg-[black] text-[white] self-center;
 }
 
 .sub-hover:hover {
-  background-color: rgb(45, 45, 45);
+  @apply bg-[rgb(45,45,45)];
 }
 
 /* right hand side  engagement buttons section starts here */
 
 .engagement-btns-right {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
+  @apply flex flex-row gap-1.5;
 }
 
 .btn {
-  padding: 6px 12px;
-  border: none;
-  border-radius: 30px;
-  font-weight: 600;
-  cursor: pointer;
+  @apply font-semibold cursor-pointer px-3 py-1.5 rounded-[30px] border-[none];
 }
-
 .eng-hover:hover {
-  background-color: rgb(225, 225, 225);
+  @apply bg-[rgb(225,225,225)];
 }
 
 .like-btn {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  margin-right: -4px;
-  border-right: 1px solid rgb(189, 189, 189);
+  @apply -mr-1 rounded-tr-none rounded-br-none border-r-[rgb(189,189,189)] border-r border-solid;
 }
 
 .dislike-btn {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  @apply rounded-tl-none rounded-bl-none;
 }
-
 .more-btn {
-  border: none;
-  padding: 2px;
-  border-radius: 50%;
-  cursor: pointer;
+  @apply cursor-pointer p-0.5 rounded-[50%] border-[none];
 }
 
 .more-btn:hover {
-  background-color: rgb(225, 225, 225);
+  @apply bg-[rgb(225,225,225)];
 }
-
 .more-icon {
-  margin-left: 5px;
+  @apply ml-[5px];
 }
 
 /* more information section about the video playing starts here */
 
 .video-info-wrapper {
-  margin: 10px auto 10px auto;
-  background-color: rgb(241, 241, 241);
-  border-radius: 10px;
-  padding: 15px;
-  font-size: 0.85rem;
+  @apply bg-[rgb(241,241,241)] text-[0.85rem] mx-auto my-2.5 p-[15px] rounded-[10px];
 }
 .info-first {
-  margin-right: 3px;
+  @apply mr-[3px];
 }
 .info-bold {
-  font-weight: 500;
+  @apply font-medium;
 }
 .more-link {
-  font-weight: 500;
-  cursor: pointer;
+  @apply font-medium cursor-pointer;
 }
