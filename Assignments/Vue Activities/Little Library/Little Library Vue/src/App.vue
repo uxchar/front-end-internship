@@ -1,5 +1,7 @@
 <script setup>
+import { reactive } from "vue";
 import BookItem from "./components/BookItem.vue";
+import Bookshelf from "./components/Bookshelf.vue";
 const books = [
   {
     isbn: 3456789123456,
@@ -79,14 +81,37 @@ const books = [
     isAvailable: true,
   },
 ];
+
+const bookshelf = reactive([]);
+function bookToShelf(book) {
+  bookshelf.push(book.image);
+  console.log(bookshelf);
+}
 </script>
 <template>
-  <div class="library-container">
-    <BookItem v-for="book in books" :book="book" />
+  <div class="wrapper">
+    <Bookshelf>
+      <div class="shelved-book" v-for="image in bookshelf" :image="image">
+        <img :src="image" alt="book cover" class="book-cover" />
+      </div>
+    </Bookshelf>
+    <div class="library-container">
+      <BookItem
+        v-for="book in books"
+        :book="book"
+        @add-book="bookToShelf(book)"
+      />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .library-container {
   display: grid;
   margin: 80px auto;
@@ -94,5 +119,15 @@ const books = [
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 50px;
   column-gap: 100px;
+}
+.book-cover {
+  width: 200px;
+  max-height: 300px;
+}
+
+.shelved-book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 </style>

@@ -1,5 +1,10 @@
 <script setup>
 const props = defineProps(["book"]);
+const emits = defineEmits(["add-book"]);
+
+function emitAddToBookshelf() {
+  emits("add-book");
+}
 </script>
 
 <template>
@@ -16,6 +21,9 @@ const props = defineProps(["book"]);
       <p class="">{{ book.author }}</p>
       <p class="book" v-if="book.isAvailable"></p>
       <p class="book" v-else>Coming Soon!</p>
+      <button v-if="book.isAvailable" @click="emitAddToBookshelf()">
+        Add to Bookshelf
+      </button>
     </div>
   </div>
 </template>
