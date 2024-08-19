@@ -6,8 +6,4 @@
   </div>
 </template>
 
-<style scoped>
-margin-top{
-  30px
-}
-</style>
+<style scoped></style>
