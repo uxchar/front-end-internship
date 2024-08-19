@@ -2,6 +2,7 @@
 import { reactive } from "vue";
 import BookItem from "./components/BookItem.vue";
 import Bookshelf from "./components/Bookshelf.vue";
+import SearchBar from "./components/SearchBar.vue";
 const books = [
   {
     isbn: 3456789123456,
@@ -95,6 +96,7 @@ function bookToShelf(book) {
         <img :src="image" alt="book cover" class="book-cover" />
       </div>
     </Bookshelf>
+    <SearchBar></SearchBar>
     <div class="library-container">
       <BookItem
         v-for="book in books"
