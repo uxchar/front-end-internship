@@ -1,9 +1,9 @@
 <script setup>
-import { reactive } from "vue";
+import { reactive, ref } from "vue";
 import BookItem from "./components/BookItem.vue";
 import Bookshelf from "./components/Bookshelf.vue";
 import SearchBar from "./components/SearchBar.vue";
-const books = [
+const books = reactive([
   {
     isbn: 3456789123456,
     title: "Trust",
@@ -81,14 +81,42 @@ const books = [
     image: "https://m.media-amazon.com/images/I/81gGEPEVTRL._SL1500_.jpg",
     isAvailable: true,
   },
-];
+]);
 
 const bookshelf = reactive([]);
 function bookToShelf(book) {
   bookshelf.push(book.image);
-  console.log(bookshelf);
 }
+
+function filterBooks(bookName) {
+  console.log(bookName);
+  books.filter((book) => {
+    if (book.title.toLowerCase().includes(bookName.toLowerCase())) {
+    }
+  });
+}
+
+function createBook() {
+  books.push({
+    title: bookTitle,
+    author: bookAuthor,
+    image: bookCover,
+    isAvailable: bookAvailablity,
+  });
+
+  bookTitle = "";
+  bookAuthor = "";
+  bookCover = "";
+  bookAvailablity = false;
+}
+// let bookIsbn = "";
+let bookTitle = "";
+let bookAuthor = "";
+let bookCover = "";
+let bookAvailablity = false;
+let bookName = "";
 </script>
+
 <template>
   <div class="wrapper">
     <Bookshelf>
@@ -96,13 +124,37 @@ function bookToShelf(book) {
         <img :src="image" alt="book cover" class="book-cover" />
       </div>
     </Bookshelf>
-    <SearchBar></SearchBar>
+    <SearchBar v-model="bookName" @search-book="filterBooks(bookName)" />
     <div class="library-container">
       <BookItem
         v-for="book in books"
         :book="book"
         @add-book="bookToShelf(book)"
       />
+    </div>
+    <div class="create-book-container">
+      <!-- <input
+        type="text"
+        v-model="bookIsbn"
+        placeholder="Enter book isbn number"
+      /> -->
+      <input type="text" v-model="bookTitle" placeholder="Enter book title" />
+      <input type="text" v-model="bookAuthor" placeholder="Enter book author" />
+      <input
+        type="text"
+        v-model="bookCover"
+        placeholder="Enter book image url"
+      />
+      <div>
+        <input
+          name="availability"
+          id="availability"
+          type="checkbox"
+          v-model="bookAvailablity"
+        />
+        <label for="availability"> Is this book availible?</label>
+      </div>
+      <button @click="createBook()">Create Book</button>
     </div>
   </div>
 </template>
@@ -131,5 +183,12 @@ function bookToShelf(book) {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.create-book-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 80px;
 }
 </style>
