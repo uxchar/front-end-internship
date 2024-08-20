@@ -238,10 +238,10 @@ button:hover {
   color: #fff;
 }
 .close-btn {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   border: none;
   color: red;
-  background-color: rgb(10, 10, 10);
+  background-color: transparent;
   margin-left: 2px;
   padding: 9.5px 10px;
 }
