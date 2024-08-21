@@ -7,7 +7,9 @@
       <h1 class="logo">lens</h1>
       <p class="logo-text">The Golden Hour</p>
     </div>
-    <a href="#" class="nav-right feed-link">Feed</a>
+    <button class="feed-btn nav-right">
+      <a href="#" class="nav-right feed-link">Feed</a>
+    </button>
     <button class="create-acc-btn nav-right">
       <a href="#">Create Account</a>
     </button>
@@ -52,10 +54,12 @@
 }
 a:link {
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 0.8rem;
   letter-spacing: 0.5px;
   color: #fff;
+  text-transform: uppercase;
+  text-align: center;
 }
 a:visited {
   text-decoration: none;
@@ -70,10 +74,10 @@ a:active {
 }
 
 .create-acc-btn a {
-  color: #fff;
+  color: #090909;
 }
 .create-acc-btn a:hover {
-  color: #fff;
+  color: #171717;
 }
 
 .logo-container {
@@ -96,12 +100,6 @@ a:active {
     6px 6px #fbc439, 8px 8px #ffbf5e;
 }
 
-.feed-link {
-  padding-right: 30px;
-  color: #fff;
-  padding-top: 20px;
-}
-
 .zig-zag {
   --mask: linear-gradient(#000 0 0) center/calc(100% - 8px) calc(100% - 8px)
       no-repeat,
@@ -118,13 +116,23 @@ a:active {
 }
 
 .create-acc-btn {
-  padding: 12px 20px;
   border: none;
-  background-color: rgb(104, 104, 104);
+  background-color: #ffffff;
   transition: background-color 0.5s ease;
   margin-right: 30px;
   margin-left: 20px;
-  height: 65px;
+  border-radius: 3px;
+  height: 60px;
+  padding: 10px 20px;
+}
+.feed-btn {
+  height: 60px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(9, 9, 9);
+  transition: background-color 0.5s ease;
+  border-radius: 3px;
+  margin-left: -20%;
 }
 
 .create-acc-btn:hover {
@@ -133,7 +141,7 @@ a:active {
 
 @media screen and (min-width: 768px) {
   a:link {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .nav-section {
@@ -141,7 +149,6 @@ a:active {
     flex-direction: row;
     margin: auto auto 150px auto;
     justify-content: space-between;
-    margin: auto auto 150px auto;
   }
   .logo-container {
     flex-direction: column;
@@ -170,9 +177,10 @@ a:active {
 
   .create-acc-btn {
     margin-right: 55px;
-    padding: 25px 30px;
+
+    /* padding: 25px 30px; */
   }
-  .feed-link {
+  .feed-btn {
     margin-left: 15%;
   }
 }
@@ -189,8 +197,8 @@ a:active {
   .logo-text {
     margin-top: -130px;
   }
-  .feed-link {
-    margin-left: 25%;
+  .feed-btn {
+    margin-left: 40%;
   }
 }
 </style>
