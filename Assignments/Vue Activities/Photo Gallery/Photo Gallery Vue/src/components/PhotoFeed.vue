@@ -176,7 +176,7 @@ function exitFilter() {
 </script>
 
 <template>
-  <div class="filter-section-label">Filter:</div>
+  <span class="filter-section-label">Filter:</span>
 
   <div class="filter-container">
     <div class="first">
@@ -217,8 +217,10 @@ button:hover {
 
 .filter-section-label {
   margin-left: 20px;
+  padding: 5px 10px;
   font-variation-settings: "wght" 800;
   text-transform: uppercase;
+  background-color: #fff;
 }
 
 .photo-feed-container {

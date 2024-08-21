@@ -56,9 +56,8 @@ a:link {
   text-decoration: none;
   font-weight: 700;
   font-size: 0.8rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   color: #fff;
-  text-transform: uppercase;
   text-align: center;
 }
 a:visited {
@@ -122,11 +121,11 @@ a:active {
   margin-right: 30px;
   margin-left: 20px;
   border-radius: 3px;
-  height: 60px;
+  height: 50px;
   padding: 10px 20px;
 }
 .feed-btn {
-  height: 60px;
+  height: 50px;
   padding: 10px 20px;
   border: none;
   background-color: rgb(9, 9, 9);
