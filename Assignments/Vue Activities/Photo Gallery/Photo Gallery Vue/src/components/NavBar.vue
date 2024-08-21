@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="nav-section animate__animated animate__fadeInDown">
-    <div class="logo-container">
+  <div class="nav-section">
+    <div class="logo-container animate__animated animate__fadeInDown">
       <img src="../assets/images/donut.png" class="logo-icon" alt="logo" />
       <h1 class="logo">lens</h1>
       <p class="logo-text">The Golden Hour</p>
@@ -37,7 +37,7 @@
   background: linear-gradient(
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.8)
     ),
     url(../assets/images/adam-borkowski-SLFhsmMkW-A-unsplash.jpg);
   background-size: cover;
