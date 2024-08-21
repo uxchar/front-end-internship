@@ -8,7 +8,7 @@
       <p class="logo-text">The Golden Hour</p>
     </div>
     <a href="#" class="nav-right feed-link">Feed</a>
-    <button class="create-acc-btn zig-zag nav-right">
+    <button class="create-acc-btn nav-right">
       <a href="#">Create Account</a>
     </button>
   </div>
@@ -16,37 +16,69 @@
 
 <style scoped>
 .nav-section {
+  position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  margin: 20px 15px 150px 15px;
+  height: 100vh;
+  margin: auto auto 150px auto;
+  padding-top: 40px;
+  color: #fff;
+  overflow: hidden;
 }
 
+.nav-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/images/adam-borkowski-SLFhsmMkW-A-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+.nav-section > * {
+  position: relative;
+  z-index: 1;
+}
 a:link {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.5px;
-  color: rgb(10, 10, 10);
+  color: #fff;
 }
 a:visited {
   text-decoration: none;
-  color: rgb(10, 10, 10);
+  color: #fff;
 }
 a:hover {
   text-decoration: none;
+  color: #ffac07;
 }
 a:active {
   text-decoration: none;
 }
 
 .create-acc-btn a {
+  color: rgb(28, 28, 28);
+}
+.create-acc-btn a:hover {
   color: #fff;
 }
 
 .logo-container {
   display: flex;
+  margin-left: 25px;
 }
 
 .logo,
@@ -57,7 +89,6 @@ a:active {
 .logo-icon {
   width: 60px;
   height: 60px;
-  margin-top: 8px;
 }
 
 .logo:hover {
@@ -67,6 +98,8 @@ a:active {
 
 .feed-link {
   padding-right: 30px;
+  color: #fff;
+  padding-top: 20px;
 }
 
 .zig-zag {
@@ -87,9 +120,14 @@ a:active {
 .create-acc-btn {
   padding: 12px 20px;
   border: none;
-  background-color: rgb(28, 28, 28);
+  color: rgb(28, 28, 28);
+  background-color: #fefefe;
   transition: background-color 0.5s ease;
+  margin-right: 30px;
+  margin-left: 20px;
+  height: 60px;
 }
+
 .create-acc-btn:hover {
   background-color: #ffac07;
 }
@@ -104,10 +142,11 @@ a:active {
     flex-direction: row;
     margin: auto auto 150px auto;
     justify-content: space-between;
+    margin: auto auto 150px auto;
   }
   .logo-container {
     flex-direction: column;
-    margin-top: -110px;
+    margin-top: -150px;
     margin-left: 40px;
   }
 
@@ -141,14 +180,14 @@ a:active {
 
 @media screen and (min-width: 1100px) {
   .logo-container {
-    margin-top: -140px;
+    justify-content: center;
   }
   .logo {
-    font-size: 9.5rem;
+    font-size: 10.5rem;
   }
 
   .logo-text {
-    margin-top: -120px;
+    margin-top: -130px;
   }
   feed-link {
     margin-left: 30%;
