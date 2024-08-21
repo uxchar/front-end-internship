@@ -5,7 +5,7 @@
     <div class="logo-container animate__animated animate__fadeInDown">
       <img src="../assets/images/donut.png" class="logo-icon" alt="logo" />
       <h1 class="logo">lens</h1>
-      <p class="logo-text">The Golden Hour</p>
+      <p class="logo-text">The Golden Hour Curation</p>
     </div>
     <button class="feed-btn nav-right">
       <a href="#" class="nav-right feed-link">Feed</a>
@@ -194,7 +194,7 @@ a:active {
   }
 
   .logo-text {
-    margin-top: -130px;
+    margin-top: -125px;
   }
   .feed-btn {
     margin-left: 40%;
