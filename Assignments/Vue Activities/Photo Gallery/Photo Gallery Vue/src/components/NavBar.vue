@@ -179,10 +179,11 @@ a:active {
 
 @media screen and (min-width: 1100px) {
   .logo-container {
-    justify-content: center;
+    justify-content: end;
+    margin-bottom: 60px;
   }
   .logo {
-    font-size: 10.5rem;
+    font-size: 9.5rem;
   }
 
   .logo-text {
