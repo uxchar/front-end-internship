@@ -36,8 +36,8 @@
   height: 100%;
   background: linear-gradient(
       rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.9)
     ),
     url(../assets/images/adam-borkowski-SLFhsmMkW-A-unsplash.jpg);
   background-size: cover;
@@ -70,7 +70,7 @@ a:active {
 }
 
 .create-acc-btn a {
-  color: rgb(28, 28, 28);
+  color: #fff;
 }
 .create-acc-btn a:hover {
   color: #fff;
@@ -120,12 +120,11 @@ a:active {
 .create-acc-btn {
   padding: 12px 20px;
   border: none;
-  color: rgb(28, 28, 28);
-  background-color: #fefefe;
+  background-color: rgb(104, 104, 104);
   transition: background-color 0.5s ease;
   margin-right: 30px;
   margin-left: 20px;
-  height: 60px;
+  height: 65px;
 }
 
 .create-acc-btn:hover {
@@ -189,8 +188,8 @@ a:active {
   .logo-text {
     margin-top: -130px;
   }
-  feed-link {
-    margin-left: 30%;
+  .feed-link {
+    margin-left: 25%;
   }
 }
 </style>
