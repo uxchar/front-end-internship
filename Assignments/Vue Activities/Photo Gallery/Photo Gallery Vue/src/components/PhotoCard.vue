@@ -34,7 +34,7 @@ a .photo-card {
 
 .creator {
   font-size: 0.8rem;
-  margin: 15px 30px auto auto;
+  margin: 15px 35px auto auto;
   padding-bottom: 30px;
   justify-content: end;
 }
