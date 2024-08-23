@@ -1,9 +1,10 @@
 <script setup>
 const emits = defineEmits(["search-book"]);
+const props = defineProps(["bookName"]);
 
-function emitSearchBooks() {
-  emits("search-book");
-}
+// function emitSearchBooks(event) {
+//   emits("search-book");
+// }
 </script>
 
 <template>
@@ -11,7 +12,8 @@ function emitSearchBooks() {
     <input
       class="search-bar"
       type="search"
-      @keypress="emitSearchBooks()"
+      @input="$emit('update:bookName', $event.target.value)"
+      :value="bookName"
       placeholder="Search Book"
     />
   </div>

@@ -3,7 +3,7 @@
 <template>
   <footer class="footer">
     <p class="footer-text">
-      © 2024 Lens. All Rights Reserved. Design + Code by Chauncey Harlan ✌🏾
+      © 2024 Lens. All Rights Reserved. Design + Code by Chauncey Harlan ✌🏾.
     </p>
   </footer>
 </template>

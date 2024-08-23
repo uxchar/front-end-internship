@@ -87,12 +87,13 @@ const bookshelf = reactive([]);
 function bookToShelf(book) {
   bookshelf.push(book.image);
 }
+const bookName = ref("");
 
-function filterBooks(bookName) {
-  console.log(bookName);
-  books.filter((book) => {
-    if (book.title.toLowerCase().includes(bookName.toLowerCase())) {
-    }
+function filterBooks(newBookName) {
+  console.log(newBookName);
+  bookName.value = newBookName;
+  bookshelf.value = books.filter((book) => {
+    book.title.toLowerCase().includes(newBookName.toLowerCase());
   });
 }
 
@@ -114,7 +115,6 @@ let bookTitle = "";
 let bookAuthor = "";
 let bookCover = "";
 let bookAvailablity = false;
-let bookName = "";
 </script>
 
 <template>
@@ -124,7 +124,8 @@ let bookName = "";
         <img :src="image" alt="book cover" class="book-cover" />
       </div>
     </Bookshelf>
-    <SearchBar v-model="bookName" @search-book="filterBooks(bookName)" />
+    <!-- Search bar component -->
+    <SearchBar v-model="bookName" @update:bookName="filterBooks" />
     <div class="library-container">
       <BookItem
         v-for="book in books"
